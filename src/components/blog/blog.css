@@ -1,0 +1,60 @@
+.blog{
+    margin: 50px 0 ;
+}
+.blog .boxItems{
+    transition: 0.3s;
+    cursor: pointer;
+}
+.blog .boxItems:hover{
+    box-shadow: 0 4px 8px #00000014;
+    transform: translateY(-3px);
+}
+.blog  .img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    
+}
+.blog img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 2.5s;
+}
+.blog img:hover{
+    transform: scale(1.3);
+}
+.blog .icon{
+    margin-right: 10px;
+    font-style: 20px;
+}
+ .blog .tag a{
+    color: blue;
+    opacity: 0.7;
+ }
+ .blog .tag {
+    margin-bottom: 20px;
+    display: flex; 
+    margin-top: 1px;
+    align-items: center;
+ }
+ .blog p{
+    color: #999;
+    font-weight: 400;
+    margin: 20px 0;
+    font-style: 17px;
+    line-height: 25px;
+ }
+ .blog .date{
+    display: flex;
+    align-items: center;
+ }
+
+ .blog .date label{
+ display: block;
+ margin-right: 20px;
+ }
